@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * return: Always 1 (Success)
+ * Return: Always 1 (Success)
  *
  * Description: This function is the entry point of the program.
  * The program should return 1 for successful execution
