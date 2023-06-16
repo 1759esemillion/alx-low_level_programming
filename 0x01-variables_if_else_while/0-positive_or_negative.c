@@ -6,7 +6,6 @@
  *
  * Return: Always 0 (Success) 
 */
-
 int main(void)
 {
 	int n;
@@ -14,10 +13,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	       printf("value of n is positive : %d\n", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("value of n is zero : %d\n", n);
-	else 
-		printf("value of n is negative : %d\n", n)	
+		prinf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);	
 	return (0);
 }
