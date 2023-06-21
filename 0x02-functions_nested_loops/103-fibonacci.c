@@ -15,14 +15,14 @@ int main(void)
 	z = 2;
 	sum= 0;
 
-	for (x = 1, x <= 33; x++)
+	for (x = 1; x <= 33; x++)
 	{
 		if (y < 4000000 && (y % z) == 0)
 		{
 			sum = sum + y;
 		}
 		next = y + z;
-		y = Z;
+		y = z;
 		z = next;
 	}
 
