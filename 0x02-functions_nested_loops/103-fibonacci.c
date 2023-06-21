@@ -13,7 +13,7 @@ int main(void)
 
 	y = 1;
 	z = 2;
-	sum= 0;
+	sum = 0;
 
 	for (x = 1; x <= 33; x++)
 	{
