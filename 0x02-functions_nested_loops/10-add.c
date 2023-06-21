@@ -3,6 +3,8 @@
 /**
  * add - adds two integers and returns the result
  *
+ *@r: int to be added to s
+ *@s: int to be added to r
  * Return: sum of both integers
  */
 
