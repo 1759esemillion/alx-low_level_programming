@@ -11,7 +11,6 @@ void close_file(int fd);
  *
  * Return: A pointer to the newly-allocated buffer.
  */
-
 char *create_buffer(char *file)
 {
 	char *buffer;
@@ -46,7 +45,7 @@ void close_file(int fd)
 }
 
 /**
- * main - program that copies the content of a file to another file.
+ * main - Copies the contents of a file to another file.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
@@ -57,7 +56,6 @@ void close_file(int fd)
  * If file_to cannot be created or written to - exit code 99.
  * If file_to or file_from cannot be closed - exit code 100.
  */
-
 int main(int argc, char *argv[])
 {
 	int from, to, r, w;
